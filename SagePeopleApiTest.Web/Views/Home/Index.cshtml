@@ -1,0 +1,43 @@
+﻿@model VacancyListModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .jumbotron {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+    }
+</style>
+
+@foreach (var vacancy in Model.Records)
+{
+    <div class="jumbotron">
+        <h2 class="display-4">@vacancy.Name</h2>
+        <p class="lead">@vacancy.fRecruit__Location_City__c / @vacancy.fRecruit__Location_Country__c</p>
+        <a class="btn btn-primary btn-sm" href="@Url.Action("Details", new { id = vacancy.Id })" role="button">Read more</a>
+    </div>
+}
+
+@*<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vacancy in Model.Records)
+        {
+            <tr>
+                <th scope="row">@vacancy.Id</th>
+                <td>
+                    <a href="@vacancy.Attributes.Url">@vacancy.Name</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@

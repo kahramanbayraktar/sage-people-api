@@ -1,0 +1,13 @@
+﻿@model Vacancy
+
+@{
+    ViewData["Title"] = "Vacancy";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">@Model.Name</h1>
+    <p class="lead">@Model.fRecruit__Location_City__c / @Model.fRecruit__Location_Country__c</p>
+    <hr class="my-4">
+    <p>@Model.fRecruit__Description__c</p>
+    <a class="btn btn-primary btn-lg" href="@("https://palladiumhr.secure.force.com/recruit/fRecruit__ApplyRegister?vacancyNo=" + Model.fRecruit__Vacancy_No__c)" role="button">Apply</a>
+</div>
