@@ -13,7 +13,7 @@ namespace SagePeopleApiTest.Web.Helper
         private const string ClientSecret = "9C263017495424223F79617A951BCADF6556EE5A8592F4FC746B0210F3F77662";
         private const string GrantType = "password";
         private const string UserName = "kahraman.bayraktar@hr.ite-exhibitions.com";
-        private const string Password = "namarhaK_91!"; // TODO: Change password!
+        private const string Password = "5a9f0rcEAp1";
 
         public static AuthToken AuthorizeByUsernamePassword()
         {
