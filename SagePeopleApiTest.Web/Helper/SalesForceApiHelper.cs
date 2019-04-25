@@ -1,7 +1,7 @@
 ﻿using RestSharp;
-using SagePeopleApiTest.Web.Models;
+using SagePeopleApi.Web.Models;
 
-namespace SagePeopleApiTest.Web.Helper
+namespace SagePeopleApi.Web.Helper
 {
     public class SalesForceApiHelper
     {

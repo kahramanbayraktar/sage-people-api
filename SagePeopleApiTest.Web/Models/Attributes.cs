@@ -1,4 +1,4 @@
-﻿namespace SagePeopleApiTest.Web.Models
+﻿namespace SagePeopleApi.Web.Models
 {
     public class Attributes
     {

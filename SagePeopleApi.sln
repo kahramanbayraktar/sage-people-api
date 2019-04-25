@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagePeopleApiTest.Web", "SagePeopleApiTest.Web\SagePeopleApiTest.Web.csproj", "{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagePeopleApi.Web", "SagePeopleApiTest.Web\SagePeopleApi.Web.csproj", "{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
