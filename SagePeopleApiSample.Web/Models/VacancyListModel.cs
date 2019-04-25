@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SagePeopleApi.Web.Models
+namespace SagePeopleApiSample.Web.Models
 {
     public class VacancyListModel
     {

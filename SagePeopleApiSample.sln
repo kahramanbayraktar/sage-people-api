@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagePeopleApi.Web", "SagePeopleApiTest.Web\SagePeopleApi.Web.csproj", "{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagePeopleApiSample.Web", "SagePeopleApiSample.Web\SagePeopleApiSample.Web.csproj", "{ED4081EA-5684-4AA2-AB1E-B6C7909B3E69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D898BF9-A8C9-4C6D-8C5F-9B8AD04E58B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4081EA-5684-4AA2-AB1E-B6C7909B3E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4081EA-5684-4AA2-AB1E-B6C7909B3E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4081EA-5684-4AA2-AB1E-B6C7909B3E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4081EA-5684-4AA2-AB1E-B6C7909B3E69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

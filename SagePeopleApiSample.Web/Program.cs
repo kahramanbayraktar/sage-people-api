@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace SagePeopleApi.Web
+namespace SagePeopleApiSample.Web
 {
     public class Program
     {

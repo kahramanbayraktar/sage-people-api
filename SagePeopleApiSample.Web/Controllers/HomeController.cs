@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SagePeopleApi.Web.Helper;
-using System.Diagnostics;
-using SagePeopleApi.Web.Models;
+using SagePeopleApiSample.Web.Helper;
+using SagePeopleApiSample.Web.Models;
 
-namespace SagePeopleApi.Web.Controllers
+namespace SagePeopleApiSample.Web.Controllers
 {
     public class HomeController : Controller
     {

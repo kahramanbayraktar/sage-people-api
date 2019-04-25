@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SagePeopleApi.Web
+namespace SagePeopleApiSample.Web
 {
     public class Startup
     {
