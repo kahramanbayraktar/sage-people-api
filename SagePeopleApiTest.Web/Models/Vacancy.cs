@@ -25,10 +25,4 @@
         public string fRecruit__Status__c { get; set; }
         public string fRecruit__Vacancy_No__c { get; set; }
     }
-
-    public class Attributes
-    {
-        public string Type { get; set; }
-        public string Url { get; set; }
-    }
 }

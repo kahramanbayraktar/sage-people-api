@@ -21,23 +21,3 @@
         <a class="btn btn-primary btn-sm" href="@Url.Action("Details", new { id = vacancy.Id })" role="button">Read more</a>
     </div>
 }
-
-@*<table class="table table-bordered table-dark">
-    <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Name</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var vacancy in Model.Records)
-        {
-            <tr>
-                <th scope="row">@vacancy.Id</th>
-                <td>
-                    <a href="@vacancy.Attributes.Url">@vacancy.Name</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>*@

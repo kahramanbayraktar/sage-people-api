@@ -6,8 +6,8 @@ namespace SagePeopleApiTest.Web.Helper
     public class SalesForceApiHelper
     {
         private const string AuthorizationUrl = "https://login.salesforce.com/services/oauth2/token";
-        private const string ResourceUriQuery = "https://na1.salesforce.com/services/data/v45.0/query/";
-        private const string ResourceUriCustomObjects = "https://na1.salesforce.com/services/data/v45.0/sobjects/";
+        private const string ResourceUrlQuery = "https://na1.salesforce.com/services/data/v45.0/query/";
+        private const string ResourceUrlCustomObjects = "https://na1.salesforce.com/services/data/v45.0/sobjects/";
 
         private const string ClientId = "3MVG9I5UQ_0k_hTnCxkhecRh8wfckEWbMqRjk43AI_SSs5or8TPR2.9bOFvBj4PxD5zOPoIBUNHGQBSNDMHDF";
         private const string ClientSecret = "9C263017495424223F79617A951BCADF6556EE5A8592F4FC746B0210F3F77662";
@@ -31,7 +31,7 @@ namespace SagePeopleApiTest.Web.Helper
 
         public static VacancyListModel ListVacancies(string accessToken)
         {
-            var client = new RestClient(ResourceUriQuery + "?q=select+id,name,fRecruit__Location_City__c,fRecruit__Location_Country__c,fRecruit__Location_Region__c+from+fRecruit__Vacancy__c");
+            var client = new RestClient(ResourceUrlQuery + "?q=select+id,name,fRecruit__Location_City__c,fRecruit__Location_Country__c,fRecruit__Location_Region__c+from+fRecruit__Vacancy__c");
             var request = new RestRequest("", Method.GET);
             request.AddHeader("Authorization", "Bearer " + accessToken);
 
@@ -41,7 +41,7 @@ namespace SagePeopleApiTest.Web.Helper
 
         public static Vacancy GetVacancy(string accessToken, string vacancyId)
         {
-            var client = new RestClient(ResourceUriCustomObjects + $"fRecruit__Vacancy__c/{vacancyId}");
+            var client = new RestClient(ResourceUrlCustomObjects + $"fRecruit__Vacancy__c/{vacancyId}");
             var request = new RestRequest("", Method.GET);
             request.AddHeader("Authorization", "Bearer " + accessToken);
 

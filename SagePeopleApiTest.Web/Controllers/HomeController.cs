@@ -23,9 +23,9 @@ namespace SagePeopleApiTest.Web.Controllers
         {
             var token = JsonConvert.DeserializeObject<AuthToken>(HttpContext.Request.Cookies["AuthToken"]);
 
-            var vacany = SalesForceApiHelper.GetVacancy(token.AccessToken, id);
+            var vacancy = SalesForceApiHelper.GetVacancy(token.AccessToken, id);
 
-            return View(vacany);
+            return View(vacancy);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
