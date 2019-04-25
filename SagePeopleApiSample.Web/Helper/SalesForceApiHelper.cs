@@ -9,11 +9,11 @@ namespace SagePeopleApiSample.Web.Helper
         private const string ResourceUrlQuery = "https://na1.salesforce.com/services/data/v45.0/query/";
         private const string ResourceUrlCustomObjects = "https://na1.salesforce.com/services/data/v45.0/sobjects/";
 
-        private const string ClientId = "3MVG9I5UQ_0k_hTnCxkhecRh8wfckEWbMqRjk43AI_SSs5or8TPR2.9bOFvBj4PxD5zOPoIBUNHGQBSNDMHDF";
-        private const string ClientSecret = "9C263017495424223F79617A951BCADF6556EE5A8592F4FC746B0210F3F77662";
+        private const string ClientId = "{yourclientid}";
+        private const string ClientSecret = "{yourclientsecret}";
         private const string GrantType = "password";
-        private const string UserName = "kahraman.bayraktar@hr.ite-exhibitions.com";
-        private const string Password = "5a9f0rcEAp1";
+        private const string UserName = "{youremail}";
+        private const string Password = "{yourpassword}";
 
         public static AuthToken AuthorizeByUsernamePassword()
         {
